@@ -35,6 +35,63 @@ $(document).ready(function (e) {
       $navbar.css({ left: "0px" });
     }
   }
+
+  $(".hover").hover(
+    function () {
+      $(this).animate(
+        {
+          marginTop: "3%",
+        },
+        200
+      );
+    },
+    function () {
+      $(this).animate(
+        {
+          marginTop: "0%",
+        },
+        200
+      );
+    }
+  );
+
+  $(".card").hover(
+    function () {
+      $(this).animate(
+        {
+          marginTop: "3%",
+        },
+        200
+      );
+    },
+    function () {
+      $(this).animate(
+        {
+          marginTop: "0%",
+        },
+        200
+      );
+    }
+  );
+
+  $(".img-fluid").hover(
+    function () {
+      $(this).animate(
+        {
+          marginTop: "3%",
+        },
+        200
+      );
+    },
+    function () {
+      $(this).animate(
+        {
+          marginTop: "0%",
+        },
+        200
+      );
+    }
+  );
 });
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
