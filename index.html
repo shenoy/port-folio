@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajesh</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;0,400;0,900;1,200;1,300;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header">
+      <div class="row m-0">
+        <div class="col-3 bgcolor-black">
+          <nav class="primary-nav navbar-expand-md">
+            <div class="site-title text-center text-light py-5">
+              <a
+                href="#"
+                class="navbar-brand font-montbold font-size-27 text-uppercase"
+                >portfolio</a
+              >
+              <p class="description text-uppercase font-mont font-size-20">Rajesh Shenoy</p>
+            </div>
+            <div class="d-flex flex-column">
+              <a
+                href="#home"
+                class="nav-item nav-link text-white-50 font-mont font-size-16 active"
+                >Home</a
+              >
+              <a
+                href="#about"
+                class="nav-item nav-link text-white-50 font-mont font-size-16 active"
+                >About</a
+              >
+              <a
+                href="#services"
+                class="nav-item nav-link text-white-50 font-mont font-size-16 active"
+                >Services</a
+              >
+              <a
+                href="#portfolio"
+                class="nav-item nav-link text-white-50 font-mont font-size-16 active"
+                >Portfolio</a
+              >
+              <a
+                href="#news"
+                class="nav-item nav-link text-white-50 font-mont font-size-16 active"
+                >News</a
+              >
+              <a
+                href="#contact"
+                class="nav-item nav-link text-white-50 font-mont font-size-16 active"
+                >Contact</a
+              >
+            </div>
+          </nav>
+        </div>
+      </div>
+      <button class="toggle-button">
+        <span class="fas fa-bars fa-2x"></span>
+      </button>
+      <div class="social">
+        <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+        <span class="mr-3"><i class="fab fa-twitter"></i></span>
+        <span class="mr-3"><i class="fab fa-instagram"></i></span>
+        <span class="mr-3"><i class="fab fa-youtube"></i></span>
+      </div>
+    </header>
+
+    <!-- header -->
+
+    <main id="site-main">
+      <div class="row m-0">
+        <div class="col-md-9 offset-md-3 px-0">
+          <!-- site-banner area -->
+          <section class="site-banner" id="home">
+            <div class="banner-area">
+              <div class="author text-center">
+                <div class="author-img"></div>
+                <h1
+                  class="text-white font-mont font-size-40 text-uppercase py-3"
+                >
+                  Rajesh Shenoy
+                </h1>
+                <h5 class="text-white font-ram font-mont font-size-27">
+                  <span id="typed"></span>
+                </h5>
+              </div>
+            </div>
+          </section>
+          <!-- site banner area -->
+
+          <!-- about me area -->
+          <section id="about" class="about px-4 my-5">
+            <div class="me py-5">
+              <h5 class="text-uppercase font-mont font-size-16 text-muted">
+                information
+              </h5>
+              <h1 class="text-uppercase font-mont font-size-34">About Me</h1>
+            </div>
+            <div class="row m-0">
+              <div class="col-sm-5 pl-0">
+                <img
+                  src="./assets/about.jpg"
+                  alt="profile image"
+                  class="img-fluid"
+                  style="border-radius: 5%;"
+                />
+              </div>
+              <div class="col-sm-6">
+                <h6 class="text-uppercase font-size-16 text-muted">About Me</h6>
+                <h5 class="font-mont font-size-34 py-2">
+                  I am a <span id="typed_2"></span>
+                </h5>
+                <p class="font-mont text-black-50 py-2">
+                  After graduating as a Mechanical Engineer, I pursued a
+                  successful career as a biologist and retrained to be a
+                  Software Developer.
+                  I am experienced in Javascript, React, Redux, Node, Expres,
+                  MongoDB, HTML and CSS and Test Driven Development. I learnt JavaScript fundamentals and testing with Mocha and Chai from a bootcamp based in Manchester.Further, I taught myself how to build servers with REST API and to
+                  create SQL and MongoDB databases. I have built several frontend
+                  applications with backend services, including
+                  web and mobile applications using React and Node.js
+            . All the apps have been deployed to Heroku or Netlify and can be viewed from this site. 
+                    Born and raised in India, I have lived in
+                   the UK since 2009 and also lived in Singapore for 5 years for my studies.
+                </p>
+                <button class="btn btn-dark text-uu mr-3">Download CV</button>
+              </div>
+            </div>
+          </section>
+          <!-- about me area -->
+
+          <!-- ability -->
+          <section id="services" class="skill px-4 py-5 bg-light">
+            <div class="ability.py-3">
+              <h5 class="text-uppercase font-size-16 text-muted">My Skills</h5>
+              <h1 class="text-uppercase font-mont font-size-34 py-2">
+                skills
+              </h1>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 pl-4">
+                <p class="font-mont text-black-50 font-size-16">
+                  FRONT-END DEVELOPMENT React and Redux with React Router,
+                  Webpack, and Create-React-App including Hooks.
+                </p>
+                <p class="font-mont text-black-50 font-size-16">
+                  WEB DESIGN Beautiful and responsive landing pages using HTML5
+                  and CSS3, latest web technologies used by modern websites
+                  including jQuery, Flexbox and Grid.
+                </p>
+                <p class="font-mont text-black-50 font-size-16">
+                  BACK-END DEVELOPMENT Node.js, Express, MongoDB: Node.js
+                  RESTful APIs and web applications, NoSQL data. Experienced in
+                  libraries like Express, Mongoose, Stripe, Sendgrid, Atlas,
+                  Compass, Git, Heroku.
+                </p>
+              </div>
+
+              <div class="col-sm-6 bars">
+
+                <div class="bar-1 mb-4">
+                  <div class="d-flex flex-row justify-content-between">
+                    <p class="font-mont font-size-16">Web Design</p>
+                    <span class="font-mont font-size-16 color-black">95%</span>
+                  </div>
+                  <div class="progress style="height:3px">
+                    <div
+                      class="progress-bar bgcolor-black"
+                      role="progressbar"
+                      style="width: 95%;"
+                    ></div>
+                  </div>       
+
+                </div>
+
+                <div class="bar-1 mb-4">
+                  <div class="d-flex flex-row justify-content-between">
+                    <p class="font-mont font-size-16">Front End Development</p>
+                    <span class="font-mont font-size-16 color-black">90%</span>
+                  </div>
+                  <div class="progress style=" height:3px">
+                    <div class="progress-bar bgcolor-black" role="progressbar" style="width: 90%;"></div>
+                  </div>
+              </div>
+
+              <div class="bar-1 mb-4">
+                <div class="d-flex flex-row justify-content-between">
+                  <p class="font-mont font-size-16">Back End Development</p>
+                  <span class="font-mont font-size-16 color-black">80%</span>
+                </div>
+                <div class="progress style=" height:3px">
+                  <div class="progress-bar bgcolor-black" role="progressbar" style="width: 80%;"></div>
+                </div>
+
+
+            </div>
+          </section>
+          <!-- abillity -->
+
+          <!-- services -->
+          <section class="services-area px-4 py-5">
+            <div class="do py-5">
+              <h5 class="text-uppercase font-size-16 text-muted">What I can do for you</h5>
+              <h1 class="text-uppercase font-mont font-size-34 py-2">
+                Services
+              </h1>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 mb-4 text-center">            
+            <div class="panel border p-4">
+              <span class="icon text-secondary">
+                <i class="fas fa-laptop fa-3x"></i></span>
+                <h4 class="font-mont py-4">Web Design</h4>
+                <p class="font-mont font-size-16 text-black-50">
+                  HTML5 and CSS3,Bootstrap, latest web technologies used by modern websites including jQuery, Flexbox and Grid.
+                </p>             
+            </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4 text-center">
+              <div class="panel border p-4">
+                <span class="icon text-secondary">
+                  <i class="fas fa-cog fa-spin fa-3x"></i></span>
+                <h4 class="font-mont py-4">Development</h4>
+                <p class="font-mont font-size-16 text-black-50">
+                  HTML5 and CSS3,Bootstrap, latest web technologies used by modern websites including jQuery, Flexbox and Grid.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4 text-center">
+              <div class="panel border p-4">
+                <span class="icon text-secondary">
+                  <i class="fas fa-pen-alt fa-3x"></i></span>
+                <h4 class="font-mont py-4">Blog</h4>
+                <p class="font-mont font-size-16 text-black-50">
+                  HTML5 and CSS3,Bootstrap, latest web technologies used by modern websites including jQuery, Flexbox and Grid.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4 text-center">
+              <div class="panel border p-4">
+                <span class="icon text-secondary">
+                  <i class="fas fa-cloud fa-3x"></i></span>
+                <h4 class="font-mont py-4">DevOps</h4>
+                <p class="font-mont font-size-16 text-black-50">
+                  Deployment technologies
+                 to shorten the systems development life cycle, provide continuous delivery with high software quality.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4 text-center">
+              <div class="panel border p-4">
+                <span class="icon text-secondary">
+                  <i class="fas fa-database fa-3x"></i></span>
+                <h4 class="font-mont py-4">Databases</h4>
+                <p class="font-mont font-size-16 text-black-50">
+                 MongoDB, MS SQL, MySQL
+                 Have created several apps with the above databases which are connected to the backend server online 
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4 text-center">
+              <div class="panel border p-4">
+                <span class="icon text-secondary">
+                  <i class="fas fa-mobile-alt fa-3x"></i></span>
+                <h4 class="font-mont py-4">Responsive</h4>
+                <p class="font-mont font-size-16 text-black-50">
+                  HTML5 and CSS3,Bootstrap, latest web technologies used by modern websites including jQuery, Flexbox and Grid.
+                </p>
+              </div>
+            </div>
+            
+            
+            </div>
+          </section>
+          <!-- services -->
+
+          <!-- work -->
+         <section id="portfolio" class="work py-5 px-4">
+           <div class="py-3">
+            <h5 class="text-uppercase font-size-16 text-muted">View some of my recent work</h5>
+            <h1 class="text-uppercase font-mont font-size-34 py-2">
+              Projects
+            </h1>             
+           </div>
+           <div class="row">
+             <div class="col-sm-3 pb-2 card px-3 mx-5 my-2" >
+               <img src="./assets/work/port10.jpeg" alt="work" class= "img-fluid my-5">
+               <div class="card-body">
+                <p class="card-text text-black-50 font-mont font-size-16">
+                         THERAPY-BOX: Dashboard with MySQL hosted Login System made for therapy-box.co.uk, a Speech and Language therapy company in London. Weather with geolocation, RSS News Feed using RSS-Parser, Sports, Persistent To-do list, Photo  uploading to Firebase and a pie chart panel.Either signup and log in or just use 'guest' (for both username and password) to login. 
+                      </p>
+                                            <a href="https://reactloginserver.herokuapp.com/" class="btn btn-primary">View App</a>
+
+                     
+                      </div>
+             </div>
+         
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port8.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                     RELATE DATA : Instrument panel Dashboard for a cybersecurity company Relate Data based in London(www.relatedata.com); The app was built using React, Node.js, Material UI, AG-Grid and HighCharts.The Dashboard was built using Material UI components, AG-Grid for producing a grid of search results, and HighCharts
+                    with React. The user can search by year and severity or just by submtting the CVE ID on the AppBar component.
+                      </p>
+                                            <a href="https://5ea5dbaa03d6d41fe3082e00--thirsty-heisenberg-71f17f.netlify.app/" class="btn btn-primary">View App</a>
+
+                      </div>
+              </div>
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port5.jpeg" alt="" class= "img-fluid  card my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                   CORONAVIRUS DATA FOR UK. This app uses Node.js, Express and MongoDB, RESTful APIs, Chart.js, HTML, CSS, Semantic UI, libraries like Mongoose, PUG template engine and
+                      Mapbox for location data. I have used the MVC model for creating backend. Data is created by making POST request through Postman to the API running on express. The app is connected to the
+                      MongoDB database where all the data is stored. 
+                      </p>
+                                            <a href="https://viruswatch.herokuapp.com/total" class="btn btn-primary">View App</a>
+
+                      </div>
+              </div>
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port2.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                   PRIME NUMBER GENERATOR: Made for Aparito, a company based in Wrexham, Wales, which makes wearable technology and disease specific mobile apps. 
+                        This app uses Node.js, Express, RESTful API for the backend server which is deployed on Netlify. The frontend is built
+                        using React, Material UI and deployed on Heroku.
+                      </p>
+                                            <a href="https://5ea655b83ea0091f1f4ef653--dazzling-hoover-7b36bf.netlify.app/" class="btn btn-primary">View App</a>
+
+                      </div>
+              </div>
+
+                <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                  <img src="./assets/work/port1.jpeg" alt="" class="img-fluid  my-5">
+                  <div class="card-body">
+                  <p class="card-text text-black-50 font-mont font-size-16">
+                    STOCK PRICES: This app uses stock data provided by Intrinio. It fetches the data and generates a chart using React Sparklines Chart.
+                    Built using Javascript, React, Redux, Node. Deployed on Netlify.The stock prices for DOW30 companies can be fetched by axios and React Sparklines renders this to a chart. 
+                   
+                  </p>
+              <a href="https://5ea616484c181e65ee2d5193--vibrant-bose-afe77e.netlify.app/" class="btn btn-primary ">View App</a>
+
+                  </div>
+                </div>
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port11.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                      MATH QUIZ APP: Built using Android Studio. Demonstrates the design of a complex layout, java classes and game play. Download the apk
+                      file on your phone and install to view the app. Download App --> Download this file(Direct) --> Open -->Install-->
+                      Install Anyway -->Open
+                      </p>
+                                            <a href="https://files.fm/f/uer2bpvt" class="btn btn-primary">Download</a>
+
+                      </div>
+              </div>
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port4.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+
+SIMPLE BLOGGING SITE:                         This app uses Node.js, React, Redux and ReduxForm. App created as part of a Udemy course on React with Redux. The backend server is reduxblogger website where all the blogs are stored. 
+                      </p>
+                                            <a href="https://5ea7704c198bf725270139f2--nostalgic-shirley-975306.netlify.app/" class="btn btn-primary">View App</a>
+
+                      </div>
+              </div>
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port7.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                       VUE-WORLD WEATHER: Frontend is built using Vue js. Current weather data is fetched from Openweathermap API. It fetches the data based on a
+                        search item and renders temperature and humidity. The background image transitions based on the temperature of 16
+                        degrees C. App is deployed on Netlify. Built using Javascript Vue.js framework and Node.js.
+                      </p>
+                                            <a href="https://vigilant-hoover-c7930b.netlify.app/" class="btn btn-primary">View App</a>
+
+                      </div>
+              </div>
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port3.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                      SEASONS: This app uses geolocation provided by the browser. The HTML Geolocation API is used to get the geographical position of
+                      a user. Based on the location of the user, it shows the season in that location. Built using Javascript, React, Redux,
+                      Node.
+                      </p>
+                                            <a href="https://season-geolocation.herokuapp.com/" class="btn btn-primary">View App</a>
+
+                      </div>
+              </div>
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port9.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                   WEATHER APP: App built as a part of a Udemy React-Redux course. 
+                        Frontend is built using React, Redux and Node.js. 3 day weather data is fetched from Openweathermap API. It fetches the
+                        data using Axios based on a search item and renders temperature, pressure and humidity using React Sparklines. App is
+                        deployed on Netlify.
+                      </p>
+                                            <a href="https://5ea61195b83dec0a680c4264--sad-kowalevski-06b782.netlify.app/" class="btn btn-primary">View App</a>
+
+                      </div>
+              </div>
+          
+            
+          
+              <div class="col-sm-3 pb-2 card px-3 mx-5 my-2">
+                <img src="./assets/work/port6.jpeg" alt="" class= "img-fluid  my-5">
+                <div class="card-body">
+                 <p class="card-text text-black-50 font-mont font-size-16">
+                      REACT CHAT APP : App created using React Context, Hooks, Socket.io and Express. App can be downloaded from github and run on PC or mobile. 
+                      </p>
+                                            <a href="https://github.com/shenoy/rwsclient" class="btn btn-primary">View Repo</a>
+
+                      </div>
+              </div>
+            </div>
+         </section>
+
+          <!-- work -->
+
+
+          <!-- News -->
+          <section id="news" class="news py-5 px-4 bg-light">
+            <div class="py-3">
+              <h5 class="text-uppercase font-size-16 text-muted">Read some of my recent news</h5>
+              <h1 class="text-uppercase font-mont font-size-34 py-2">
+                News
+              </h1>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 my-3">
+                <div class="card">
+                  <div class="card border-0">
+                    <img src="./assets/news/1.jpg" alt="news1" class="card-img-top">
+                    <div class="card-body">
+                      <p class="font-mont font-size-16 text-black-50">in <b class="text-uppercase text-dark">The Cloud </b></p>
+                      <h5 class="card-title font-mont">DevOps</h5>
+                      <p class="card-text text-black-50 font-mont font-size-16">
+                        DevOps Engineers help to automate the regular day to day tasks of IT Pros. This is the best career option for the folks who are eager to become a developer as the
+                        next step of their career. DevOps also work very closely with QA and test teams
+                      </p>
+                    </div>
+                  </div>
+                </div>                
+              </div>
+
+
+              <div class="col-sm-4 my-3">
+                <div class="card">
+                  <div class="card border-0">
+                    <img src="./assets/news/2.jpg" alt="news1" class="card-img-top">
+                    <div class="card-body">
+                      <p class="font-mont font-size-16 text-black-50">in <b class="text-uppercase text-dark">Development</b></p>
+                      <h5 class="card-title font-mont">Angular with .NET</h5>
+                      <p class="card-text text-black-50 font-mont font-size-16">
+                        Angular is one of most in-demand web
+                        front-end frameworks developed by Google, it gets integrated with any Server side technology. In this article, let's learn how to use Angular (Version 9) with ASP.NET MVC 5 using Angular-CLI
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-4 my-3">
+                <div class="card">
+                  <div class="card border-0">
+                    <img src="./assets/news/3.jpg" alt="news1" class="card-img-top">
+                    <div class="card-body">
+                      <p class="font-mont font-size-16 text-black-50">in <b class="text-uppercase text-dark">Design </b></p>
+                      <h5 class="card-title font-mont">U</h5>
+                      <p class="card-text text-black-50 font-mont font-size-16">
+                        DevOps help to automate the regular day to day tasks of IT Pros. DevOps are a new career path in IT for the
+                        folks who
+                        like to automate manual tasks. This is the best career option for the folks who are eager to become a
+                        developer as the
+                        next step of their career. DevOps also work very closely with QA and test teams
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+            </div>
+          </section>
+          <!--  News-->
+
+          <footer id="footer" class="pt-5 px-3">
+            <div id="contact">
+              <div class="py-3 px-2">
+                  <h5 class="text-uppercase font-size-16 text-muted">Get in touch</h5>
+                  <h1 class="text-uppercase font-mont font-size-34 py-2">
+                   Contact Me
+                  </h1>
+                </div>
+                <div class="row py-5">
+                  <div class="col-sm-6">
+                    <h6 class="text-uppercase font-mont font-size-27">Rajesh Shenoy</h6>
+                    <p class="font-mont w-50 font-size-16 text-black-50 pt-3">Let's work together!</p>
+                    <p class="font-mont font-size-16 text-black-50 pt-3">
+                      EMAIL: rajeshtshenoyone@gmail.com
+                    </p>
+                    <p class="font-mont font-size-16 text-black-50">
+                     LINKED-IN: <a href=" https://www.linkedin.com/in/rajesh-shenoy-712029114/">rajesh-shenoy-712029114</a>
+                    </p>
+                    <p class="font-mont font-size-16 text-black-50">
+                      GITHUB: github.com/shenoy
+                    </p>
+
+                  </div>
+                  <div class="col-sm-6 py-4 px-4">
+                    <h6 class="text-uppercase font-mont font-size-16">Get in touch</h6>  
+                    <form action="" class="py-3">
+                      <div class="row">
+                        <div class="col">
+                          <input type="text"
+                          class="form-control"
+                          placeholder="Name"
+                          >
+                        </div>
+
+                        <div class="col">
+                          <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                      </div>
+                      <textarea name="" id="" cols="30" rows="3" class="form-control my-4"
+                      placeholder="Message"                      
+                      ></textarea>
+                      <button type="submit" class="btn btn-dark">Say Hello!</button>
+                    </form>                
+                  </div>
+                </div>
+                <div class="row bg-light py-5">
+                  <div class="col-sm-4 my-5 text-center">
+                    <h6 class="font-mont font-size-16 text-black-50">&copy;2020 Rajesh Shenoy. All rights reserved</h6>
+                  </div>
+                  <div class="col-sm-4 my-4 text-center">
+                    <a href="#" class="navbar-brand font-montbold font-size-40 text-black-50 text-uppercase">portfolio</a>
+                    <p class="description font-mont font-size-16 text-uppercase">Rajesh Shenoy</p>
+                  </div>
+                  <div class="col-sm-4 my-5 text-center">
+                    <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+                    <span class="mr-3"><i class="fab fa-twitter"></i></span>
+                    <span class="mr-3"><i class="fab fa-instagram"></i></span>
+                    <span class="mr-3"><i class="fab fa-youtube"></i></span>
+                  </div>
+                </div>
+            </div>
+          </footer>
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
